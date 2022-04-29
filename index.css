@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+#title {
+	font-size: 2.5em;
+	color: #c1cc99;
+	text-align: center;
+}
+
+#container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #8b9474;
+}
+
+#svg-container {
+	margin: 0px;
+	padding: 10px;
+	background-color: #6cae75;
+	box-shadow: 10px 5px 10px #314631;
+	border-radius: 2px;
+}
+
+#tooltip {
+	font-size: 17px;
+	font-weight: bold;
+	fill: #c1cc99;
+}
+
+.bar {
+	fill: #8b9474; /*#69b3a2*/
+	stroke: black;
+	stroke-width: 0.2;
+}
+
+.bar:hover {
+	fill: #314631;
+}
+
+#x-label,
+#y-label {
+	fill: #314631;
+}
